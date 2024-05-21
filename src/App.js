@@ -21,7 +21,7 @@ loadErrorMessages();
 function App() {
 
    const httpLink = createHttpLink({
-    uri: 'https://weba-eiev.onrender.com/',
+    uri: 'https://daviskicapitalbackend.onrender.com/',
         //  uri: 'http://localhost:5000/',
    });
   
