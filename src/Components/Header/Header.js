@@ -1,15 +1,22 @@
-import React from 'react';
-import { FaEnvelope, FaPhone, FaFacebookF, FaTwitter, FaInstagram, FaPinterest } from 'react-icons/fa';
+import React from "react";
+import {
+  FaEnvelope,
+  FaPhone,
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaPinterest,
+} from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center p-4 ">
+    <div className="flex flex-col md:flex-row justify-between items-center p-4  bg-purple-300 w-[100%]">
       <img
         src="https://res.cloudinary.com/dmpposta9/image/upload/v1716289787/beyond/daviskicapital/The_Data_Detectiv_removeb_preview_whk6dc.png"
         alt="logo"
         className="w-[150px] mb-4 md:mb-0"
       />
-{/* 
+      {/* 
       <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4">
         <div className="flex items-center space-x-2">
           <FaEnvelope className="text-blue-600" />
@@ -37,6 +44,6 @@ const Header = () => {
       </div> */}
     </div>
   );
-}
+};
 
 export default Header;
