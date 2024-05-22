@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhone, FaFacebookF, FaTwitter, FaInstagram, FaPinterest }
 
 const Header = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center p-4">
+    <div className="flex flex-col md:flex-row justify-between items-center p-4 ">
       <img
         src="https://res.cloudinary.com/dmpposta9/image/upload/v1716289787/beyond/daviskicapital/The_Data_Detectiv_removeb_preview_whk6dc.png"
         alt="logo"
