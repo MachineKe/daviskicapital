@@ -15,6 +15,7 @@ import Register from "./Components/Register";
 import Nav from "./Components/Nav/Nav";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
+import Services from "./Components/Home/Home";
 loadDevMessages();
 loadErrorMessages();
 
@@ -51,9 +52,13 @@ function App() {
             {/* <Navbar/> */}
 <Nav/>
             <Routes>
-                            <Route path="/" element={<Home/>} />
+                            <Route path="/account" element={<Home/>} />
                             <Route path="/login" element={<Login/>} />
               <Route path="/register" element={<Register />} />
+
+              <Route path="/" element={<Services />} />
+
+
 
             </Routes>
           </ErrorBoundary>
